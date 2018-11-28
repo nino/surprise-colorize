@@ -22,3 +22,5 @@ hi ColorColumn ctermbg=233
 hi TabLine cterm=none ctermfg=249 ctermbg=240 gui=none guibg=DarkGrey
 hi TabLineFill cterm=none ctermfg=249 ctermbg=242 gui=none guibg=DarkGrey
 hi TabLineSel cterm=bold gui=bold ctermfg=238 ctermbg=254
+hi Comment ctermfg=152
+hi String ctermfg=219
