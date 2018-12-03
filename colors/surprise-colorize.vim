@@ -13,7 +13,7 @@ hi ALEWarning ctermfg=219 ctermbg=none cterm=none guifg=#ffafff
 hi SpellBad ctermbg=none cterm=underline ctermfg=171 guifg=#d75fff
 
 hi DiffAdd ctermbg=22 ctermfg=none
-hi DiffChange ctermbg=238 ctermfg=none
+hi DiffChange ctermbg=234 ctermfg=none
 hi DiffDelete ctermbg=52 ctermfg=52
 hi DiffText ctermbg=17 ctermfg=none
 
@@ -29,4 +29,4 @@ hi String ctermfg=219
 hi htmlTagName ctermfg=193
 hi Statement ctermfg=181 guifg=#d7afaf
 
-hi Normal ctermfg=none ctermbg=none guibg=#333333
+hi Normal ctermfg=none ctermbg=none guibg=#112228 guifg=#ffeeee
