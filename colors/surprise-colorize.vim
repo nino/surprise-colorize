@@ -8,12 +8,12 @@ let g:colors_name = "surprise-colorize"
 set background=dark
 
 hi VertSplit term=NONE cterm=NONE ctermfg=245 ctermbg=NONE gui=NONE guifg=black guibg=#6C6C6C
-hi ALEError ctermfg=214 ctermbg=none cterm=none
-hi ALEWarning ctermfg=219 ctermbg=none cterm=none
-hi SpellBad ctermbg=none cterm=underline ctermfg=171
+hi ALEError ctermfg=214 ctermbg=none cterm=none guifg=#ffaf00
+hi ALEWarning ctermfg=219 ctermbg=none cterm=none guifg=#ffafff
+hi SpellBad ctermbg=none cterm=underline ctermfg=171 guifg=#d75fff
 
 hi DiffAdd ctermbg=22 ctermfg=none
-hi DiffChange ctermbg=0 ctermfg=none
+hi DiffChange ctermbg=238 ctermfg=none
 hi DiffDelete ctermbg=52 ctermfg=52
 hi DiffText ctermbg=17 ctermfg=none
 
@@ -27,5 +27,6 @@ hi TabLineSel cterm=bold gui=bold ctermfg=238 ctermbg=254
 hi Comment ctermfg=152
 hi String ctermfg=219
 hi htmlTagName ctermfg=193
+hi Statement ctermfg=181 guifg=#d7afaf
 
 hi Normal ctermfg=none ctermbg=none guibg=#333333
