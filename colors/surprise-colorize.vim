@@ -21,12 +21,19 @@ hi ALEErrorSign ctermfg=red
 hi ALEWarningSign ctermfg=214
 hi Folded ctermbg=black
 hi ColorColumn ctermbg=233
-hi TabLine cterm=none ctermfg=249 ctermbg=240 gui=none guibg=DarkGrey
-hi TabLineFill cterm=none ctermfg=249 ctermbg=242 gui=none guibg=DarkGrey
-hi TabLineSel cterm=bold gui=bold ctermfg=238 ctermbg=254
 hi Comment ctermfg=152
 hi String ctermfg=219
 hi htmlTagName ctermfg=193
 hi Statement ctermfg=181 guifg=#d7afaf
 
 hi Normal ctermfg=none ctermbg=none guibg=#112228 guifg=#ffeeee
+hi NonText ctermfg=18 ctermbg=none guibg=none guifg=#000087
+
+hi TabLine cterm=none ctermfg=249 ctermbg=240 gui=none guibg=DarkGrey
+hi TabLineFill cterm=none ctermfg=249 ctermbg=242 gui=none guibg=DarkGrey
+hi TabLineSel cterm=bold gui=bold ctermfg=238 ctermbg=254
+
+hi CursorLine ctermbg=234 cterm=none
+
+hi StatusLine ctermbg=240 ctermfg=white cterm=none
+hi StatusLineNC ctermbg=236 ctermfg=248 cterm=none
