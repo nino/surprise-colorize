@@ -27,7 +27,7 @@ hi htmlTagName ctermfg=193
 hi Statement ctermfg=181 guifg=#d7afaf
 hi Function ctermfg=193 cterm=none
 
-hi Normal ctermfg=none ctermbg=none guibg=#112228 guifg=#ffeeee
+hi Normal ctermfg=none ctermbg=none guibg=#111111 guifg=#ffeeee
 hi NonText ctermfg=4 ctermbg=none
 
 hi TabLine cterm=none ctermfg=249 ctermbg=240 gui=none guibg=DarkGrey
@@ -39,4 +39,4 @@ hi CursorLine ctermbg=234 cterm=none
 hi StatusLine ctermbg=240 ctermfg=white cterm=none
 hi StatusLineNC ctermbg=236 ctermfg=248 cterm=none
 
-
+hi Visual ctermbg=8 guibg=LightGrey
