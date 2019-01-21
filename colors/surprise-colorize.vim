@@ -24,7 +24,7 @@ hi ColorColumn ctermbg=233
 hi Comment ctermfg=152
 hi String ctermfg=43 guifg=#00d7af
 hi htmlTagName ctermfg=193
-hi Statement ctermfg=181 guifg=#d7afaf
+hi Statement ctermfg=39 guifg=#00afff
 hi Function ctermfg=193 cterm=none
 
 hi Normal ctermfg=none ctermbg=none guibg=#111111 guifg=#ffeeee
