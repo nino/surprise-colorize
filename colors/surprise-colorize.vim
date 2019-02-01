@@ -22,7 +22,7 @@ hi ALEWarningSign ctermfg=214
 hi Folded ctermbg=black
 hi ColorColumn ctermbg=233
 hi Comment ctermfg=152
-hi String ctermfg=43 guifg=#00d7af
+hi String ctermfg=13 guifg=#ff00ff
 hi htmlTagName ctermfg=193
 hi Statement ctermfg=39 guifg=#00afff
 hi Function ctermfg=193 cterm=none
