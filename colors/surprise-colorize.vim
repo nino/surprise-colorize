@@ -39,7 +39,7 @@ hi CursorLine ctermbg=234 cterm=none
 hi StatusLine ctermbg=240 ctermfg=white cterm=none
 hi StatusLineNC ctermbg=236 ctermfg=248 cterm=none
 
-hi Visual ctermbg=8 guibg=#2255AA
+hi Visual ctermbg=23 guibg=#2255AA
 
 hi Search ctermbg=11 guibg=Yellow ctermfg=0 guifg=Black
 hi MatchParen ctermbg=14 ctermfg=19 guibg=Cyan guifg=Black
