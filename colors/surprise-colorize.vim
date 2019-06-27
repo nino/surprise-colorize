@@ -324,3 +324,6 @@ hi GitGutterAdd ctermfg=40 guifg=#00d700
 hi GitGutterChange ctermfg=39 guifg=#00afff
 hi GitGutterDelete ctermfg=160 guifg=#d70000
 
+call s:MyCustomHighlight('Pmenu', 'Grey74', 'Grey27')
+call s:MyCustomHighlight('PmenuSel', 'Grey89', 'Blue')
+
