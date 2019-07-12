@@ -282,7 +282,8 @@ function! s:MyCustomHighlight(groupName, fgColor, bgColor)
   exe l:commandString
 endfunction
 
-call s:MyCustomHighlight('VertSplit', 'Grey54', '')
+hi VertSplit term=NONE cterm=NONE ctermfg=245 ctermbg=NONE gui=NONE guifg=#8a8a8a guibg=#6C6C6C
+" call s:MyCustomHighlight('VertSplit', 'Grey54', '')
 hi ALEError ctermfg=214 ctermbg=none cterm=none guifg=#ffaf00
 hi ALEWarning ctermfg=219 ctermbg=none cterm=none guifg=#ffafff
 hi SpellBad ctermbg=none cterm=underline ctermfg=171 guifg=#d75fff
@@ -297,7 +298,7 @@ hi ALEWarningSign ctermfg=214 guifg=#ffaf00
 hi Folded ctermbg=black guibg=#000000
 hi ColorColumn ctermbg=233 guibg=#121212
 call s:MyCustomHighlight('Comment', 'HotPink1', '')
-call s:MyCustomHighlight('String', 'Violet', '')
+call s:MyCustomHighlight('String', 'SkyBlue2', '')
 hi Statement ctermfg=39 guifg=#00afff
 call s:MyCustomHighlight('Function', 'SeaGreen2', '')
 call s:MyCustomHighlight('htmlTagName', 'DarkSeaGreen2', '')
@@ -312,8 +313,9 @@ hi TabLineSel cterm=bold gui=bold ctermfg=238 ctermbg=254 guifg=#444444 guibg=#e
 call s:MyCustomHighlight('Cursor', 'White', 'DeepPink1')
 hi CursorLine ctermbg=234 cterm=none guibg=#1c1c1c
 
-hi StatusLine ctermbg=240 ctermfg=white cterm=none guibg=#585858 guifg=#ffffff
-hi StatusLineNC ctermbg=236 ctermfg=248 cterm=none guibg=#303030 guifg=#a8a8a8
+call s:MyCustomHighlight('StatusLine', 'Grey35', 'White')
+call s:MyCustomHighlight('StatusLineNC', 'Grey19', 'Grey66')
+
 
 " hi Visual ctermbg=23 guibg=#005f5f
 call s:MyCustomHighlight('Visual', '', 'DeepSkyBlue5')
