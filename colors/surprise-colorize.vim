@@ -331,3 +331,7 @@ hi GitGutterDelete ctermfg=160 guifg=#d70000
 call s:MyCustomHighlight('Pmenu', 'Grey74', 'Grey27')
 call s:MyCustomHighlight('PmenuSel', 'Grey89', 'Blue')
 call s:MyCustomHighlight('MatchParen', 'Grey82', 'SlateBlue1')
+
+call s:MyCustomHighlight('markdownH1', 'Aquamarine1', '')
+call s:MyCustomHighlight('markdownH2', 'DarkSeaGreen6', '')
+call s:MyCustomHighlight('markdownH3', 'PaleGreen3', '')
