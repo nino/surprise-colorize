@@ -283,7 +283,6 @@ function! s:MyCustomHighlight(groupName, fgColor, bgColor)
 endfunction
 
 hi VertSplit term=NONE cterm=NONE ctermfg=245 ctermbg=NONE gui=NONE guifg=#8a8a8a guibg=#6C6C6C
-" call s:MyCustomHighlight('VertSplit', 'Grey54', '')
 hi ALEError ctermfg=214 ctermbg=none cterm=none guifg=#ffaf00
 hi ALEWarning ctermfg=219 ctermbg=none cterm=none guifg=#ffafff
 hi SpellBad ctermbg=none cterm=underline ctermfg=171 guifg=#d75fff
@@ -303,7 +302,6 @@ hi Statement ctermfg=39 guifg=#00afff
 call s:MyCustomHighlight('Function', 'SeaGreen2', '')
 call s:MyCustomHighlight('htmlTagName', 'DarkSeaGreen2', '')
 
-hi Normal ctermfg=none ctermbg=none guibg=#252525 guifg=#eeeeee
 call s:MyCustomHighlight('NonText', 'DeepSkyBlue6', '')
 
 hi TabLine cterm=none ctermfg=249 ctermbg=240 gui=none guifg=#b2b2b2 guibg=#585858
@@ -335,3 +333,6 @@ call s:MyCustomHighlight('MatchParen', 'Grey82', 'SlateBlue1')
 call s:MyCustomHighlight('markdownH1', 'Aquamarine1', '')
 call s:MyCustomHighlight('markdownH2', 'DarkSeaGreen6', '')
 call s:MyCustomHighlight('markdownH3', 'PaleGreen3', '')
+
+call s:MyCustomHighlight('Normal', 'Grey93', 'Grey15')
+call s:MyCustomHighlight('ColorColumn', '', 'Grey19')
