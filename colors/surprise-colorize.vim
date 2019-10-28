@@ -282,6 +282,7 @@ function! s:MyCustomHighlight(groupName, fgColor, bgColor)
   exe l:commandString
 endfunction
 
+hi Normal guibg='#283340' guifg='#eeeeee'
 hi VertSplit term=NONE cterm=NONE ctermfg=245 ctermbg=NONE gui=NONE guifg=#8a8a8a guibg=#6C6C6C
 hi ALEError ctermfg=214 ctermbg=none cterm=none guifg=#ffaf00
 hi ALEWarning ctermfg=219 ctermbg=none cterm=none guifg=#ffafff
@@ -304,9 +305,9 @@ call s:MyCustomHighlight('htmlTagName', 'DarkSeaGreen2', '')
 
 call s:MyCustomHighlight('NonText', 'DeepSkyBlue6', '')
 
-hi TabLine cterm=none ctermfg=249 ctermbg=240 gui=none guifg=#b2b2b2 guibg=#585858
-hi TabLineFill cterm=none ctermfg=249 ctermbg=242 gui=none guifg=#b2b2b2 guibg=#6c6c6c
-hi TabLineSel cterm=bold gui=bold ctermfg=238 ctermbg=254 guifg=#444444 guibg=#e4e4e4
+hi TabLine cterm=underline ctermfg=white ctermbg=black gui=underline guifg=#b2b2b2 guibg=#585858
+hi TabLineFill cterm=none ctermfg=white ctermbg=black gui=none guifg=#b2b2b2 guibg=#6c6c6c
+hi TabLineSel cterm=none gui=none ctermfg=black ctermbg=white guifg=#444444 guibg=#e4e4e4
 
 call s:MyCustomHighlight('Cursor', 'White', 'DeepPink1')
 hi CursorLine ctermbg=234 cterm=none guibg=#1c1c1c
@@ -334,5 +335,9 @@ call s:MyCustomHighlight('markdownH1', 'Aquamarine1', '')
 call s:MyCustomHighlight('markdownH2', 'DarkSeaGreen6', '')
 call s:MyCustomHighlight('markdownH3', 'PaleGreen3', '')
 
-call s:MyCustomHighlight('Normal', 'Grey93', 'Grey15')
+" call s:MyCustomHighlight('Normal', 'Grey93', 'Black')
 call s:MyCustomHighlight('ColorColumn', '', 'Grey19')
+call s:MyCustomHighlight('LineNr', 'Grey39', '')
+
+" hi SignColumn guibg=none
+
