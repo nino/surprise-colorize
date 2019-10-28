@@ -334,5 +334,5 @@ call s:MyCustomHighlight('markdownH1', 'Aquamarine1', '')
 call s:MyCustomHighlight('markdownH2', 'DarkSeaGreen6', '')
 call s:MyCustomHighlight('markdownH3', 'PaleGreen3', '')
 
-call s:MyCustomHighlight('Normal', 'Grey93', 'Grey15')
+call s:MyCustomHighlight('Normal', 'Grey93', 'Black')
 call s:MyCustomHighlight('ColorColumn', '', 'Grey19')
